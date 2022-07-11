@@ -1,0 +1,60 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="javas.css">
+</head>
+<body>
+<section class="tracker">
+  <h2 class="header">Expense Tracker</h2>
+  <div class="balance-counter">
+<div class="balance">Your balance</div>
+<h1 class="rs">Rs0.00</h1>
+</div> 
+<div class="salary">
+ 
+  <div>
+    <h4>Income</h4>
+    <p class="money-plus" style="color:#2ecc71 ;">+0.00</p>
+  </div>
+  <div class="line"></div>
+  <div>
+    <h4>Expense</h4>
+    <p class="money-minus" style="color: #e74c3c;">-0.00</p>
+  </div>
+  </div>
+
+  <div class="list-container">
+    <h2 class="header2">History</h2>
+<div class="line2" ></div>
+
+<ul id="list" class="list">
+  <li class="plus">Cash
+     <span >+Rs100</span>
+      <button class="dlt-btn">X</button>
+    </li>
+</ul>
+  </div>
+
+  <h2 class="header2">Add transition</h2>
+  <div class="line2" style="margin-bottom: 10px ;"></div>
+
+<form  id="form">
+  <div class="form-control">
+    <label for="text">Text</label> <br>
+    <input id="text" type="text" placeholder="Enter Text...">
+  </div>
+  <div class="form-control">
+    <label for="text" id="text">Amount</label> <br>
+    <input id="amount" type="number" placeholder="Enter Amount...">
+  </div>
+</form>
+
+<button onclick="myFunction()" class="add-amount">Add transition</button>
+</section>
+<script src="javas.js"></script>
+</body>
+</html>

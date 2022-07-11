@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.list{
+    list-style-type: none;
+margin-bottom: 20px;
+margin-top: 10px;
+margin-left: 10%;
+display: flex;
+flex-direction: column;
+}
+
+li{
+box-shadow:2px 2px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+width: 85%;
+justify-content: space-between;
+display: flex ;
+position: relative;
+padding: 10px;
+margin: 10px 0;
+}
+.list .plus{
+    border-right:5px solid #2ecc71 ;
+}
+.list .minus{
+    border-right:5px solid  #e74c3c;
+}
+.dlt-btn{
+cursor: pointer;
+background-color: #e74c3c;
+border: 0;
+color: #fff;
+font-size: 20px;
+line-height: 20px;
+padding: 2px 5px;
+position: absolute;
+top: 50%;
+left: 0;
+transform: translate(-100%,-50%);
+opacity: 0;
+transition: opacity 0.3s ease;
+}
+.list li:hover .dlt-btn{
+    opacity: 1;
+}
+
+body{
+width: 75%;
+    margin: auto;
+    background-color: whitesmoke;
+}
+.balance{
+    font-size: larger;
+}
+.rs{
+    letter-spacing: 0.1rem;
+    font-weight:lighter;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    font-size: 4vmin;
+}
+.balance-counter{
+
+width: 80%;
+margin: auto;
+    margin-bottom: 20px;
+    
+}
+.tracker{
+
+border: 1px solid black;
+    box-shadow:2px 4px 4px 1px rgba(128, 119, 119 , 119) ;
+width: 70%;
+height: fit-content;
+padding: 1rem;
+  margin:10px auto;
+}
+
+.salary{
+
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    border: 1.5px solid black;
+    padding: 15px 50px;
+align-items: center;
+text-align: center;
+background-color: aliceblue;
+}
+.line{
+    background-color: black;
+    width: 1px;
+    height: 60px;
+}
+
+.header2{
+margin-top: 30px;
+margin-left: 10%;
+
+
+}
+
+.line2{
+    width: 80%;
+    height: 1px;
+    background-color: black;
+    margin: auto;
+}
+form{ 
+    
+    width: 80%;
+    margin: auto;
+}
+.add-amount{
+    margin-top: 15px;
+padding: 10px 15px;
+background-color: antiquewhite;
+transition: 0.3s;
+border-radius: 4px;
+margin-left: 50%;
+transform: translateX(-50%);
+}
+.add-amount:hover{
+background-color: cadetblue;
+color: aliceblue;
+}
+.add-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+padding: 6px;
+width: 100%;
+margin:10px 0px;
+box-shadow:2px 2px rgba(0, 0, 0, 0.3);
+background-color: #fff;
+font-size: large;
+}
